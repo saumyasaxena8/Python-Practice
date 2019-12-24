@@ -189,10 +189,32 @@ while(i <= 20):
 
 # Functions
 
+def addnumber(fNum, lNum):
+    sumNum = fNum + lNum
+    return sumNum
 
+string = addnumber(1,4)
+print(string)
 
+# User Input
+#print('what is your name')
+#name = sys.stdin.readline()
 
+#print('Hello', name)
 
+# String Functions
+
+long_string = "I'll call you if you fall - The Floor"
+print(long_string[0:4])
+
+print(long_string[-5:])
+
+print(long_string[:-5]) #upto the last five characters
+
+print(long_string[:4] + ' be there')
+
+print('%c is my %s letter and my number %d number is %d number is %.5f' %
+      ('X', 'favorite', 1, .14))
 
 
 
