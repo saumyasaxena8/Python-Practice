@@ -212,10 +212,6 @@ print(long_string[-5:])
 print(long_string[:-5]) #upto the last five characters
 
 print(long_string[:4] + ' be there')
-
-print('%c is my %s letter and my number %d number is %d number is %.5f' %
-      ('X', 'favorite', 1, .14))
-
 '''
 
 
