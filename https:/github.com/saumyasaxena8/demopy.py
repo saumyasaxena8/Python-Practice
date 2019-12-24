@@ -238,4 +238,3 @@ print(quote_list)
 
 
 
-
