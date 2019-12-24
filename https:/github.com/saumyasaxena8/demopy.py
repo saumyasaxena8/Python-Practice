@@ -212,8 +212,8 @@ print(long_string[-5:])
 print(long_string[:-5]) #upto the last five characters
 
 print(long_string[:4] + ' be there')
-'''
 
+'''
 
 
 
