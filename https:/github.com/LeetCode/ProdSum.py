@@ -1,11 +1,10 @@
 num = 324
-ls = []
-ls.append(num)
+s = str(num)
 add = 0
 mult = 1
-for i in range(len(ls)):
-    add += int(ls[i])
-    mult *= int(ls[i])
+for i in range(len(s)):
+    add += int(s[i])
+    mult *= int(s[i])
     +i
 print(add)
 print(mult)
